@@ -69,9 +69,19 @@ See [docs/data_model.md](docs/data_model.md) for details.
 
 ## Screenshots
 
-![S3 structure](docs/s3-structure.png)
-![Glue job](docs/glue-job-succeeded.png)
-![Athena result](docs/athena-daily-revenue.png)
+## Screenshots
+
+**S3 bucket structure (raw, curated, quarantine):**
+![S3 bucket structure](docs/S3%20bucket%20structure.png)
+
+**Glue batch job — Succeeded:**
+![Glue batch to curated](docs/glue%20batch%20to%20curated.png)
+
+**Glue incremental job — Succeeded:**
+![Glue incremental to curated](docs/glue%20incremental%20to%20curated.png)
+
+**Athena query result:**
+![Athena query result](docs/Athena%20query%20result.png)
 
 
 
