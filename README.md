@@ -67,12 +67,11 @@ See [docs/data_model.md](docs/data_model.md) for details.
     └── athena_region_performance.sql
 ```
 
-## Screenshots (Optional)
+## Screenshots
 
-- S3 bucket structure (raw, curated, quarantine).
-- Glue job run (batch or incremental) — Succeeded.
-- Athena query result (e.g. daily revenue or top products).
+![S3 structure](docs/s3-structure.png)
+![Glue job](docs/glue-job-succeeded.png)
+![Athena result](docs/athena-daily-revenue.png)
 
----
 
-*Built as a portfolio project for AWS data engineering.*
+
