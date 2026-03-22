@@ -38,7 +38,7 @@ def generate_order(order_id_int: int) -> dict:
 
 
 def lambda_handler(event, context):
-    num_orders = 10  # Keep small for free-tier; increase to 50 if desired
+    num_orders = 10  
     orders = [generate_order(i) for i in range(num_orders)]
 
     now = datetime.now(timezone.utc)
