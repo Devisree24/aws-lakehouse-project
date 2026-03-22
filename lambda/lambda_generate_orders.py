@@ -9,11 +9,11 @@ import boto3
 
 s3 = boto3.client("s3")
 
-# Change to your bucket name
+
 BUCKET = "de-lakehouse-devis-us-east-1"
 PREFIX = "raw/orders_incremental/"
 
-# Example customer/product IDs (match your data or keep small set)
+
 CUSTOMER_IDS = list(range(1, 101))
 PRODUCT_IDS = list(range(101, 351))
 STATUSES = ["COMPLETED", "PENDING", "CANCELLED"]
