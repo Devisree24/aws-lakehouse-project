@@ -1,6 +1,5 @@
 """
-Glue Incremental Job (Option A): Merge raw/orders (CSV) + raw/orders_incremental (JSON)
-into curated/orders (Parquet). Same validation and dedup as batch.
+Glue Incremental Job 
 """
 import sys
 from awsglue.utils import getResolvedOptions
