@@ -1,6 +1,5 @@
 """
 Lambda: Generate synthetic new orders and write to S3 (raw/orders_incremental/).
-For Step 9 - Incremental pipeline. Schedule with EventBridge (e.g. every 60 min).
 """
 import json
 import random
